@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        header {
+            position: sticky;
+            top: 0px;
+        }
+
+        .navbar ul {
+            display: flex;
+            padding: 7px 26px;
+            background-color: black;
+
+
+        }
+
+        li {
+            padding: 2px 15px;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+            font-family: "Poppins";
+            font-weight: 300;
+            font-style: normal;
+        }
+
+        a:hover {
+            color: grey;
+        }
+
+        .section {
+            display: flex;
+            justify-content: center;
+            padding: 100px;
+            background-color: rgb(231, 212, 187);
+        }
+
+        .box {
+            height: 500px;
+            width: 500px;
+            margin: 23px;
+            background-color: burlywood;
+            font-family: "Poppins";
+            font-weight: 300;
+            font-style: normal;
+        }
+
+        .rectangle {
+            display: flex;
+            height: 400px;
+            justify-content: center;
+            align-items: center;
+            margin: 57px;
+
+        }
+
+        .rectBox {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 150px;
+            width: 1000px;
+            background-color: rgb(139, 129, 116);
+            border-radius: 35px;
+            font-size: 35px;
+            font-family: "Poppins";
+            font-weight: 300;
+            font-style: normal;
+            color: white;
+
+        }
+        .chatBot{
+            display: flex;
+            justify-content: right;
+            
+        }
+        .chat{
+            position: fixed;
+            bottom: 0px;
+            margin: 35px;
+            height: 100px;
+            width: 100px;
+            background-color: rgb(160, 115, 56);
+            border-radius: 50px;
+        }
+        footer{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 25px;
+            width: 100%;
+            background-color: black;
+            color: white;
+        }
